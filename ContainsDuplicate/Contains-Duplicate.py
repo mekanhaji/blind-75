@@ -46,3 +46,8 @@ class Solution:
           Memory Usage -> 24.1 MB
         """
         return True if len(set(arr)) < len(arr) else False
+        """
+        5. Simple One
+        """
+        st = set(nums)
+        return len(nums) - len(st)
