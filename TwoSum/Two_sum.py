@@ -1,40 +1,31 @@
 class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
-        # Sol 1
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
         """
-        Sorting
-            By sorting the String they will be same (equel)
-            Ex. -> 'zatazt' and 'azaztt' will become 'aattzz'
+        BrutForce
+            Using 2 For Loop(inner and outer)
+            1st loop for first value and 2nd for value which
+            sums up to the target.
+            Time -> O(n^2)
+            Space -> O(1) 
         """
-        return sorted(s) == sorted(t)
-        # Sol 2
+        for i in range(0, len(nums)):
+            for j in range(i + 1, len(nums)):
+                if nums[i] + nums[j] == target:
+                    return [i, j]
         """
-        Cheacking For length
-            For being anagram they shoud be of same length
+        Using HashMap
+            We can map values with index,
+            Key   -> Number
+            Value -> Index
+            Now We will Iterate though are and checking
+            if other value(diff = target - num[i]) is in our map.
+            Time -> O(n)
+            Space -> O(n)
         """
-        if len(s) != len(t):
-            return False
-        """
-        Creating HashMap
-            we'll map every char with it's number of time occurred
-            key   -> char
-            value -> occurence
-        """
-        s_hash , t_hash = {} , {}
+        hashmap = {}
         
-        for i in range(len(s)):
-            #  Key                  Value
-            s_hash[s[i]] = 1 + s_hash.get(s[i] , 0)
-            t_hash[t[i]] = 1 + t_hash.get(t[i] , 0)
-            
-        for c in s_hash :
-            if s_hash[c] != t_hash.get(c , 0):
-                return False
-        return True
-
-        # Sol 3
-        """
-        Using Counter()
-            Counter is a subclass of dict that's specially designed for counting hashable objects in Python
-        """
-        return Counter(s) == Counter(t)
+        for i,n in enumerate(nums):
+            diff = target - n
+            if diff in hashmap:
+                return [hashmap[diff] , i]
+            hashmap[n] = i
