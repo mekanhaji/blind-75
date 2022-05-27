@@ -1,22 +1,23 @@
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
-        l , r = 0 , 1
-        maxprofit = 0
+    def isValid(self, s: str) -> bool:
+        stack = []
+        map = {
+            ')' : '(',
+            '}' : '{',
+            ']' : '['
+        }
         
-        while r < len(prices) :
-            # profitable ?
-            if prices[r] > prices[l] :
-                profit = prices[r] - prices[l]
-                maxProfit = max(profit , maxProfit)
-            else :
-                # if it isn't profitable 
-                # update left (l) where right (r) 
-                # resion : at this point r will be lower then l 
-                # and every value beform r. so, we can just update l to r...
-                # [7,2,5,1,3,0]       [7,2,5,1,3,0]
-                #    ^   ^       ==>         ^ ^
-                #    l   r                ...l r
-                l = r 
-            r += 1
+        for c in s :
+            if c not in map :
+                stack.append(c)
+                continue
+            # it a closing bracket
+            # stack in empty
+            # last input brackets are not same
+            # we'll return False 
+            if not stack or stack[-1] != map[c] :
+                return False
+            # if not any above case pop the last item
+            stack.pop()
             
-        return maxProfit
+        return not stack
