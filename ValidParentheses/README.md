@@ -1,20 +1,19 @@
-# [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/ "LeetCode")
-> A phrase is a __*palindrome*__ if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+# [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/ "LeetCode")
+> Given a string s containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 >
-> Given a string `s`, return `true` if it is a __*palindrome*__, or `false` otherwise.
+> An input string is valid if:
+>   1. Open brackets must be closed by the same type of brackets.
+>   2. Open brackets must be closed in the correct order.
+
 ### Example 1:
-    Input: s = "A man, a plan, a canal: Panama"
+    Input: s = "()"
     Output: true
-    Explanation: "amanaplanacanalpanama" is a palindrome.
 ### Example 2:
-    Input: s = "race a car"
-    Output: false
-    Explanation: "raceacar" is not a palindrome.
-### Example 3:
-    Input: s = " "
+    Input: s = "()[]{}"
     Output: true
-    Explanation: s is an empty string "" after removing non-alphanumeric characters.
-    Since an empty string reads the same forward and backward, it is a palindrome.
+### Example 3:
+    Input: s = "(]"
+    Output: false
 ### Constraints:
-    1 <= s.length <= 2 * 105
-    s consists only of printable ASCII characters.
+    1 <= s.length <= 10^4
+    s consists of parentheses only '()[]{}'.
