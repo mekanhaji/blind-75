@@ -5,6 +5,7 @@
 #         self.left = left
 #         self.right = right
 
+# ------------------------------------------------------------------------------------------------------- #
 # Recursive DFS Sol:
 class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
@@ -17,6 +18,7 @@ class Solution:
         # Find max b/w them..
         # Add 1 for Root's Depth
         return 1 + max(self.maxDepth(root.left) , self.maxDepth(root.right))
+
 # ------------------------------------------------------------------------------------------------------- #
 # ITERATIVE DFS Sol:
 class Solution:
@@ -45,3 +47,36 @@ class Solution:
                 stack.append([node.right , depth + 1])
         
         return res
+
+# ------------------------------------------------------------------------------------------------------- #
+# BFS Sol:
+class Solution:
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
+        
+        # Base Case , When Reach to Leaf node or Null Node
+        if not root :
+            return 0
+        
+        depth = 0               # Depth counter
+        queue = deque([root])   # Queue
+        
+        # Stop when Queue in Empty  | Not Node left To pop from Queue 
+        while queue :
+            
+            # Go though all node in Queue
+            for _ in range(len(queue)) :
+                
+                # Pop each Node
+                node = queue.popleft()
+                
+                # Check If They Have Child
+                # If So Then Add Or Append In Queue
+                if node.left :
+                    queue.append(node.left)
+                if node.right :
+                    queue.append(node.right)
+            
+            # Increase Depth Counter..
+            depth += 1
+        
+        return depth
