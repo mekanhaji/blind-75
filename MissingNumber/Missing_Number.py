@@ -15,4 +15,12 @@ class Solution:
             if nums[i] != i:
                 return i
         return nums[-1] + 1
-# 
+# Math... time -> O(n)
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+        sum = 0
+        for i in nums:
+            sum += i
+        n = len(nums)
+        sumn = (n * (n + 1)) / 2
+        return int(sumn - sum)
