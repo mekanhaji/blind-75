@@ -20,3 +20,22 @@
 |16| [Valid Parentheses](https://github.com/mekanhaji/blind-75/tree/main/ValidParentheses) |`Done`|`Easy`|Stack|
 |17| [Search Rotated Sorted Array](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Binary Search|
 |18| [Find Minimum in Rotated Sorted Array](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Binary Search|
+|19| [Reverse Linked List](https://github.com/mekanhaji/blind-75/tree/main/ReverseLinklist) |`Pending`|`Easy`|Linked List|
+|20| [Merge Two Linked Lists](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Easy`|Linked List|
+|21| [Linked List Cycle](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Easy`|Linked List|
+|22| [Reorder List](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Linked List|
+|23| [Remove Nth Node from End of List](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Linked List|
+|24| [Merge K Sorted Lists](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Hard`|Linked List|
+|25| [Invert Binary Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
+|26| [Maximum Depth of Binary Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
+|27| [Same Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
+|28| [Subtree of Another Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
+|29| [Lowest Common Ancestor of a BST](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
+|30| [Binary Tree Level Order Traversal](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Tree|
+|31| [Validate Binary Search Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Tree|
+|32| [Kth Smallest Element in a BST](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Tree|
+|33| [Construct Tree from Preorder and Inorder Traversal](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Tree|
+|34| [Binary Tree Max Path Sum](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Hard`|Tree|
+|35| [Serialize and Deserialize Binary Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Hard`|Tree|
+
+
