@@ -26,11 +26,11 @@
 |22| [Reorder List](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Linked List|
 |23| [Remove Nth Node from End of List](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Linked List|
 |24| [Merge K Sorted Lists](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Hard`|Linked List|
-|25| [Invert Binary Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
-|26| [Maximum Depth of Binary Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
-|27| [Same Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
-|28| [Subtree of Another Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
-|29| [Lowest Common Ancestor of a BST](https://github.com/mekanhaji/blind-75/tree/main/) |`Done`|`Easy`|Tree|
+|25| [Invert Binary Tree](https://github.com/mekanhaji/blind-75/tree/main/InvertBinaryTree) |`Done`|`Easy`|Tree|
+|26| [Maximum Depth of Binary Tree](https://github.com/mekanhaji/blind-75/tree/main/MaximumDepthOfBinaryTree) |`Done`|`Easy`|Tree|
+|27| [Same Tree](https://github.com/mekanhaji/blind-75/tree/main/SameTree) |`Done`|`Easy`|Tree|
+|28| [Subtree of Another Tree](https://github.com/mekanhaji/blind-75/tree/main/SubtreeOfAnotherTree) |`Done`|`Easy`|Tree|
+|29| [Lowest Common Ancestor of a BST](https://github.com/mekanhaji/blind-75/tree/main/LowestCommonAncestorOfBST) |`Done`|`Easy`|Tree|
 |30| [Binary Tree Level Order Traversal](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Tree|
 |31| [Validate Binary Search Tree](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Tree|
 |32| [Kth Smallest Element in a BST](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Tree|
