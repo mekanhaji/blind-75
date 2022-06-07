@@ -1,5 +1,5 @@
 # [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/ "LeetCode")
-
+`Tree` `Depth-First-Search` `Breadth-First-Search` `Binary Tree`
 > Given the `root` of a binary tree, invert the tree, and return its root.
 
 ### Example 1:
