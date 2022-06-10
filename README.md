@@ -7,7 +7,7 @@
 |3| [Two Sum](https://github.com/mekanhaji/blind-75/tree/main/TwoSum) |`Done`|`Easy`|Array & Hashing|
 |4| [Group Anagrams](https://github.com/mekanhaji/blind-75/tree/main/GroupAnagrams) |`Done`|`Medium`|Array & Hashing|
 |5| [Top K Frequent Elements](https://github.com/mekanhaji/blind-75/tree/main/TopKFrequentElements) |`Done`|`Medium`|Array & Hashing|
-|6| [Product of Array Except Self](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Array & Hashing|
+|6| [Product of Array Except Self](https://github.com/mekanhaji/blind-75/tree/main/ProductOfArrayExceptSelf) |`Done`|`Medium`|Array & Hashing|
 |7| [Encode and Decode Strings](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Array & Hashing|
 |8| [Longest Consecutive Sequence](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Array & Hashing|
 |9| [Valid Palindrome](https://github.com/mekanhaji/blind-75/tree/main/ValidPalindrome) |`Done`|`Easy`|Two Pointers|
