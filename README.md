@@ -11,11 +11,11 @@
 |7| [Encode and Decode Strings](https://github.com/mekanhaji/blind-75/tree/main/EncodeAndDecodeStrings) |`Pending`|`Medium`|Array & Hashing|
 |8| [Longest Consecutive Sequence](https://github.com/mekanhaji/blind-75/tree/main/LongestConsecutiveSequence) |`Done`|`Medium`|Array & Hashing|
 |9| [Valid Palindrome](https://github.com/mekanhaji/blind-75/tree/main/ValidPalindrome) |`Done`|`Easy`|Two Pointers|
-|10| [3Sum](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Two Pointers|
+|10| [3Sum](https://github.com/mekanhaji/blind-75/tree/main/3Sum) |`Done`|`Medium`|Two Pointers|
 |11| [Container with Most Water](https://github.com/mekanhaji/blind-75/tree/main/ContainerWithMostWater) |`Done`|`Medium`|Two Pointers|
 |12| [Best Time to Buy & Sell Stock](https://github.com/mekanhaji/blind-75/tree/main/BestTimeToBuyAndSellStock) |`Done`|`Easy`|Sliding Window|
-|13| [Longest Substring Without Repeating Characters](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Sliding Window|
-|14| [Longest Repeating Character Replacement](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Sliding Window|
+|13| [Longest Substring Without Repeating Characters](https://github.com/mekanhaji/blind-75/tree/main/LongestSubstringWithoutRepeatingCharacters) |`Done`|`Medium`|Sliding Window|
+|14| [Longest Repeating Character Replacement](https://github.com/mekanhaji/blind-75/tree/main/LongestRepeatingCharacterReplacement) |`Done`|`Medium`|Sliding Window|
 |15| [Minimum Window Substring](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Hard`|Sliding Window|
 |16| [Valid Parentheses](https://github.com/mekanhaji/blind-75/tree/main/ValidParentheses) |`Done`|`Easy`|Stack|
 |17| [Search Rotated Sorted Array](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Binary Search|
