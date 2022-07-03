@@ -18,8 +18,8 @@
 |14| [Longest Repeating Character Replacement](https://github.com/mekanhaji/blind-75/tree/main/LongestRepeatingCharacterReplacement) |`Done`|`Medium`|Sliding Window|
 |15| [Minimum Window Substring](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Hard`|Sliding Window|
 |16| [Valid Parentheses](https://github.com/mekanhaji/blind-75/tree/main/ValidParentheses) |`Done`|`Easy`|Stack|
-|17| [Search Rotated Sorted Array](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Binary Search|
-|18| [Find Minimum in Rotated Sorted Array](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Medium`|Binary Search|
+|17| [Search Rotated Sorted Array](https://github.com/mekanhaji/blind-75/tree/main/SearchInRotatedSortedArray) |`Done`|`Medium`|Binary Search|
+|18| [Find Minimum in Rotated Sorted Array](https://github.com/mekanhaji/blind-75/tree/main/FindMinimumInRotatedSortedArray) |`Done`|`Medium`|Binary Search|
 |19| [Reverse Linked List](https://github.com/mekanhaji/blind-75/tree/main/ReverseLinklist) |`Pending`|`Easy`|Linked List|
 |20| [Merge Two Linked Lists](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Easy`|Linked List|
 |21| [Linked List Cycle](https://github.com/mekanhaji/blind-75/tree/main/) |`Pending`|`Easy`|Linked List|
